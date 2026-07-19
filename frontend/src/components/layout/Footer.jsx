@@ -19,19 +19,25 @@ function Footer() {
 
         {/* Center */}
         <div className="flex gap-6 text-sm text-gray-400">
-          <Link to="/home" className="transition hover:text-red-500">
+          <Link to="/home" className="transition hover:text-red-500 text-white">
             Home
           </Link>
 
-          <Link to="/movies" className="transition hover:text-red-500">
+          <Link
+            to="/movies"
+            className="transition hover:text-red-500 text-white"
+          >
             Movies
           </Link>
 
-          <Link to="/tv" className="transition hover:text-red-500">
+          <Link to="/tv" className="transition hover:text-red-500 text-white">
             TV Shows
           </Link>
 
-          <Link to="/my-list" className="transition hover:text-red-500">
+          <Link
+            to="/my-list"
+            className="transition hover:text-red-500 text-white"
+          >
             My List
           </Link>
         </div>

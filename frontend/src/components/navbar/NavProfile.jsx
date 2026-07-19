@@ -98,7 +98,7 @@ function NavProfile() {
         <FaChevronDown
           className={`transition-transform duration-300 ${
             open ? "rotate-180" : ""
-          }`}
+          } text-white`}
         />
       </button>
 
