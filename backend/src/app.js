@@ -50,4 +50,11 @@ app.use("/api/recommendations", recommendationRoutes);
 app.use("/api/genres", genreRoutes);
 app.use("/api/admin", adminRoutes);
 
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "Netflix Clone API is running 🚀",
+  });
+});
+
 module.exports = app;
