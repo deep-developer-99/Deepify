@@ -1,14 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Netflix Clone Backend API built with Node.js, Express.js, MongoDB and JWT Authentication",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Deepanshu Rawat",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
